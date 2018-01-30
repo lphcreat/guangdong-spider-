@@ -92,10 +92,10 @@ ITEM_PIPELINES = {
 
 
 # start MySQL database configure setting
-MSSQL_SERVER ='218.241.178.211'
-MSSQL_DB ='CrawData'
-MSSQL_USER ='cfc'
-MSSQL_PASSWORD ='!QAZxsw2'
+MSSQL_SERVER ='***'
+MSSQL_DB ='**'
+MSSQL_USER ='***'
+MSSQL_PASSWORD ='****'
 # end of MySQL database configure setting
 
 #mssql excute setting
