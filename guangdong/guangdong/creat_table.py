@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # 创建对象的基类:
 Base = declarative_base()
 # 初始化数据库连接:
-engine = create_engine('mssql+pyodbc://cfc:!QAZxsw2@218.241.178.211/CrawData?driver=SQL+Server+Native+Client+10.0')
+engine = create_engine('mssql+pyodbc://......./CrawData?driver=SQL+Server+Native+Client+10.0')
 # 创建DBSession类型:
 # 定义User对象:
 class Table(Base):
